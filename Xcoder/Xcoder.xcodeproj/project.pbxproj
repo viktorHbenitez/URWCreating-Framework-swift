@@ -21,7 +21,6 @@
 		8203DE5D1F11C98500CDEE87 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE4E1F11C95100CDEE87 /* NSManagedObject.swift */; };
 		8203DE5E1F11C98500CDEE87 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE4F1F11C95100CDEE87 /* NSManagedObjectContext.swift */; };
 		8203DE5F1F11C98500CDEE87 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE501F11C95100CDEE87 /* UIColor.swift */; };
-		8203DE601F11C98500CDEE87 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE511F11C95100CDEE87 /* UIImage.swift */; };
 		8203DE611F11C98B00CDEE87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8203DE4B1F11C95100CDEE87 /* Images.xcassets */; };
 		8203DE621F11C99300CDEE87 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE481F11C95100CDEE87 /* KeyboardButton.swift */; };
 		8203DE631F11C99300CDEE87 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE4A1F11C95100CDEE87 /* PDFViewController.swift */; };
@@ -29,10 +28,42 @@
 		8203DE661F11C99300CDEE87 /* ShortcutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE461F11C95100CDEE87 /* ShortcutDetailViewController.swift */; };
 		8203DE671F11C99300CDEE87 /* ShortcutsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE421F11C95100CDEE87 /* ShortcutsTableViewCell.swift */; };
 		8203DE681F11C99300CDEE87 /* ShortcutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE471F11C95100CDEE87 /* ShortcutsViewController.swift */; };
-		8203DE691F11C99300CDEE87 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE4C1F11C95100CDEE87 /* Types.swift */; };
-		82792EFF1F257356006BCAC5 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82792EFE1F257345006BCAC5 /* Checkbox.swift */; };
 		82F35FBD1F257EC2007678F8 /* CoreDataStackSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F35FBC1F257EC2007678F8 /* CoreDataStackSeed.swift */; };
+		E48E0E3D2135B609005A5830 /* Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E0E3C2135B595005A5830 /* Checkbox.framework */; };
+		E48E0E3E2135B609005A5830 /* Checkbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E48E0E3C2135B595005A5830 /* Checkbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E48E0E432135BA16005A5830 /* workflow-walkthrough.md in Resources */ = {isa = PBXBuildFile; fileRef = E48E0E422135BA15005A5830 /* workflow-walkthrough.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E48E0E3B2135B595005A5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48E0E372135B595005A5830 /* Checkbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E447E3D12135B31900947D90;
+			remoteInfo = Checkbox;
+		};
+		E48E0E3F2135B609005A5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48E0E372135B595005A5830 /* Checkbox.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E447E3D02135B31900947D90;
+			remoteInfo = Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E48E0E412135B609005A5830 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E48E0E3E2135B609005A5830 /* Checkbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8203DE1F1F11C4D500CDEE87 /* Xcoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xcoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,16 +85,15 @@
 		8203DE481F11C95100CDEE87 /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
 		8203DE4A1F11C95100CDEE87 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 		8203DE4B1F11C95100CDEE87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8203DE4C1F11C95100CDEE87 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		8203DE4E1F11C95100CDEE87 /* NSManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
 		8203DE4F1F11C95100CDEE87 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
 		8203DE501F11C95100CDEE87 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		8203DE511F11C95100CDEE87 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		8203DE521F11C95100CDEE87 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		82792EFE1F257345006BCAC5 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		82F35FBC1F257EC2007678F8 /* CoreDataStackSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackSeed.swift; sourceTree = "<group>"; };
 		8C14F61F1F45CF42009737D5 /* Syntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Syntax.md; sourceTree = "<group>"; };
 		8C333BB81F46926600211E2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E48E0E372135B595005A5830 /* Checkbox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Checkbox.xcodeproj; path = ../Checkbox/Checkbox.xcodeproj; sourceTree = "<group>"; };
+		E48E0E422135BA15005A5830 /* workflow-walkthrough.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "workflow-walkthrough.md"; path = "../workflow-walkthrough.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48E0E3D2135B609005A5830 /* Checkbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +111,8 @@
 		8203DE161F11C4D500CDEE87 = {
 			isa = PBXGroup;
 			children = (
+				E48E0E422135BA15005A5830 /* workflow-walkthrough.md */,
+				E48E0E372135B595005A5830 /* Checkbox.xcodeproj */,
 				8203DE211F11C4D500CDEE87 /* Xcoder */,
 				8203DE201F11C4D500CDEE87 /* Products */,
 			);
@@ -99,14 +132,12 @@
 				8203DE221F11C4D500CDEE87 /* AppDelegate.swift */,
 				8C14F61F1F45CF42009737D5 /* Syntax.md */,
 				8C333BB81F46926600211E2A /* README.md */,
-				8203DE4C1F11C95100CDEE87 /* Types.swift */,
 				8203DE471F11C95100CDEE87 /* ShortcutsViewController.swift */,
 				8203DE421F11C95100CDEE87 /* ShortcutsTableViewCell.swift */,
 				8203DE461F11C95100CDEE87 /* ShortcutDetailViewController.swift */,
 				8203DE481F11C95100CDEE87 /* KeyboardButton.swift */,
 				8203DE431F11C95100CDEE87 /* SectionViewController.swift */,
 				8203DE4A1F11C95100CDEE87 /* PDFViewController.swift */,
-				82792EFE1F257345006BCAC5 /* Checkbox.swift */,
 				8203DE261F11C4D500CDEE87 /* Main.storyboard */,
 				8203DE2B1F11C4D500CDEE87 /* LaunchScreen.storyboard */,
 				8203DE521F11C95100CDEE87 /* Colors.xcassets */,
@@ -139,9 +170,16 @@
 				8203DE4E1F11C95100CDEE87 /* NSManagedObject.swift */,
 				8203DE4F1F11C95100CDEE87 /* NSManagedObjectContext.swift */,
 				8203DE501F11C95100CDEE87 /* UIColor.swift */,
-				8203DE511F11C95100CDEE87 /* UIImage.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E48E0E382135B595005A5830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48E0E3C2135B595005A5830 /* Checkbox.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +192,12 @@
 				8203DE1B1F11C4D500CDEE87 /* Sources */,
 				8203DE1C1F11C4D500CDEE87 /* Frameworks */,
 				8203DE1D1F11C4D500CDEE87 /* Resources */,
+				E48E0E412135B609005A5830 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E48E0E402135B609005A5830 /* PBXTargetDependency */,
 			);
 			name = Xcoder;
 			productName = Xcoder;
@@ -190,12 +230,28 @@
 			mainGroup = 8203DE161F11C4D500CDEE87;
 			productRefGroup = 8203DE201F11C4D500CDEE87 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E48E0E382135B595005A5830 /* Products */;
+					ProjectRef = E48E0E372135B595005A5830 /* Checkbox.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8203DE1E1F11C4D500CDEE87 /* Xcoder */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E48E0E3C2135B595005A5830 /* Checkbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Checkbox.framework;
+			remoteRef = E48E0E3B2135B595005A5830 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8203DE1D1F11C4D500CDEE87 /* Resources */ = {
@@ -204,6 +260,7 @@
 			files = (
 				8203DE541F11C96900CDEE87 /* Colors.xcassets in Resources */,
 				8203DE611F11C98B00CDEE87 /* Images.xcassets in Resources */,
+				E48E0E432135BA16005A5830 /* workflow-walkthrough.md in Resources */,
 				8203DE2D1F11C4D500CDEE87 /* LaunchScreen.storyboard in Resources */,
 				8203DE281F11C4D500CDEE87 /* Main.storyboard in Resources */,
 				8203DE571F11C97700CDEE87 /* DataSeed.json in Resources */,
@@ -221,18 +278,15 @@
 				8203DE5B1F11C97700CDEE87 /* Shortcut+CoreDataProperties.swift in Sources */,
 				8203DE621F11C99300CDEE87 /* KeyboardButton.swift in Sources */,
 				8203DE561F11C97700CDEE87 /* CoreDataStack.swift in Sources */,
-				8203DE691F11C99300CDEE87 /* Types.swift in Sources */,
 				8203DE591F11C97700CDEE87 /* Section+CoreDataProperties.swift in Sources */,
 				8203DE631F11C99300CDEE87 /* PDFViewController.swift in Sources */,
 				8203DE651F11C99300CDEE87 /* SectionViewController.swift in Sources */,
-				82792EFF1F257356006BCAC5 /* Checkbox.swift in Sources */,
 				8203DE661F11C99300CDEE87 /* ShortcutDetailViewController.swift in Sources */,
 				8203DE5D1F11C98500CDEE87 /* NSManagedObject.swift in Sources */,
 				8203DE5A1F11C97700CDEE87 /* Shortcut+CoreDataClass.swift in Sources */,
 				8203DE5F1F11C98500CDEE87 /* UIColor.swift in Sources */,
 				8203DE671F11C99300CDEE87 /* ShortcutsTableViewCell.swift in Sources */,
 				8203DE231F11C4D500CDEE87 /* AppDelegate.swift in Sources */,
-				8203DE601F11C98500CDEE87 /* UIImage.swift in Sources */,
 				8203DE581F11C97700CDEE87 /* Section+CoreDataClass.swift in Sources */,
 				8203DE681F11C99300CDEE87 /* ShortcutsViewController.swift in Sources */,
 				8203DE5E1F11C98500CDEE87 /* NSManagedObjectContext.swift in Sources */,
@@ -241,6 +295,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E48E0E402135B609005A5830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Checkbox;
+			targetProxy = E48E0E3F2135B609005A5830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8203DE261F11C4D500CDEE87 /* Main.storyboard */ = {
@@ -376,9 +438,11 @@
 		8203DE321F11C4D500CDEE87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Xcoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Xcoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,9 +454,11 @@
 		8203DE331F11C4D500CDEE87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Xcoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Xcoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -30,6 +30,7 @@
 
 import UIKit
 import CoreData
+import Checkbox
 
 class ShortcutDetailViewController: UITableViewController {
   enum State {

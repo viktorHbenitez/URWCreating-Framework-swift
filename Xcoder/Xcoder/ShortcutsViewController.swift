@@ -31,6 +31,7 @@
 
 import UIKit
 import CoreData
+import Checkbox
 
 class ShortcutsViewController: UIViewController {
   

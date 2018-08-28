@@ -30,22 +30,22 @@
 
 import UIKit
 
-protocol CheckboxDelegate {
+public protocol CheckboxDelegate {
   func checkBox(checkBox: Checkbox, userChecked: Filter)
 }
 
-class Checkbox: UIView {
+public class Checkbox: UIView {
   
-  var isChecked: Filter = .none {
+  public var isChecked: Filter = .none {
     didSet {
       updateAppearance()
     }
   }
   
   var checkmarkImageView: UIImageView!
-  var delegate: CheckboxDelegate?
+  public var delegate: CheckboxDelegate?
   
-  required init?(coder aDecoder: NSCoder) {
+  public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     commonInit()
     updateAppearance()
@@ -104,13 +104,13 @@ class Checkbox: UIView {
     return filter
   }
   
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+  public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     isChecked = updateChecked(oldValue: isChecked)
     delegate?.checkBox(checkBox: self,
                        userChecked: isChecked)
   }
   
-  override var intrinsicContentSize : CGSize {
+  public override var intrinsicContentSize : CGSize {
     return CGSize(width: 30.0, height: 30.0)
   }
   

@@ -32,13 +32,7 @@ import UIKit
 
 extension UIColor {
   enum AssetIdentifier: String {
-    case checkedBackground = "checkedBackground"
-    case checkedBorder = "checkedBorder"
-    case checkedPrimary = "checkedPrimary"
-    case hideBackground = "hideBackground"
-    case hideBorder = "hideBorder"
-    case hidePrimary = "hidePrimary"
-    case uncheckedBorder = "uncheckedBorder"
+    
     case keyboardHighlight = "keyboardHighlight"
     case keyboardNormal = "keyboardNormal"
     case navigationPrimary = "navigationPrimary"

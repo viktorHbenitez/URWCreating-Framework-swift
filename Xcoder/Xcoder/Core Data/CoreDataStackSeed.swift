@@ -31,6 +31,7 @@
 */
 
 import CoreData
+import Checkbox
 
 // MARK:- Data Seed Import
 
