@@ -32,7 +32,6 @@
 		8203DE691F11C99300CDEE87 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203DE4C1F11C95100CDEE87 /* Types.swift */; };
 		82792EFF1F257356006BCAC5 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82792EFE1F257345006BCAC5 /* Checkbox.swift */; };
 		82F35FBD1F257EC2007678F8 /* CoreDataStackSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F35FBC1F257EC2007678F8 /* CoreDataStackSeed.swift */; };
-		E4C4619B2135A80600814975 /* workflow-walkthrough.md in Resources */ = {isa = PBXBuildFile; fileRef = E4C4619A2135A80600814975 /* workflow-walkthrough.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,7 +64,6 @@
 		82F35FBC1F257EC2007678F8 /* CoreDataStackSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackSeed.swift; sourceTree = "<group>"; };
 		8C14F61F1F45CF42009737D5 /* Syntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Syntax.md; sourceTree = "<group>"; };
 		8C333BB81F46926600211E2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E4C4619A2135A80600814975 /* workflow-walkthrough.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "workflow-walkthrough.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 		8203DE161F11C4D500CDEE87 = {
 			isa = PBXGroup;
 			children = (
-				E4C4619A2135A80600814975 /* workflow-walkthrough.md */,
 				8203DE211F11C4D500CDEE87 /* Xcoder */,
 				8203DE201F11C4D500CDEE87 /* Products */,
 			);
@@ -207,7 +204,6 @@
 			files = (
 				8203DE541F11C96900CDEE87 /* Colors.xcassets in Resources */,
 				8203DE611F11C98B00CDEE87 /* Images.xcassets in Resources */,
-				E4C4619B2135A80600814975 /* workflow-walkthrough.md in Resources */,
 				8203DE2D1F11C4D500CDEE87 /* LaunchScreen.storyboard in Resources */,
 				8203DE281F11C4D500CDEE87 /* Main.storyboard in Resources */,
 				8203DE571F11C97700CDEE87 /* DataSeed.json in Resources */,
